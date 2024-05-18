@@ -17,16 +17,12 @@ module.exports = {
       colors: {
         primary: colors.purple,
         secondary: colors.pink,
+        sky: colors.sky,
+        stone: colors.stone,
+        neutral: colors.neutral,
+        gray: colors.gray,
+        slate: colors.slate,
       },
-    },
-    colors: {
-      ...colors,
-      // Adding renamed colors to avoid warnings
-      sky: colors.sky,
-      stone: colors.stone,
-      neutral: colors.neutral,
-      gray: colors.gray,
-      slate: colors.slate,
     },
   },
   plugins: [],
